@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9264e5e5-1585-46b0-a976-123516e07c1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/newsletter.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/newsletter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/page_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/page_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/tab_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/tab_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_NewsLetter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test1.py">
+  <component name="RunManager">
     <configuration name="Unittests in inlooptests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="inlooptests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,7 +68,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test1.test_openNewsletter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.test_NewsLetter.test_openNewsletter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="inlooptests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +79,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test1.test_openNewsletter&quot;" />
+      <option name="_new_target" value="&quot;test.test_NewsLetter.test_openNewsletter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test1.test_open_all_newsletter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.test_NewsLetter.test_open_all_newsletter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="inlooptests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +94,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test1.test_open_all_newsletter&quot;" />
+      <option name="_new_target" value="&quot;test.test_NewsLetter.test_open_all_newsletter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -108,7 +113,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_NewsLetter.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="inlooptests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,17 +124,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test1.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_NewsLetter.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test1.py" />
+        <item itemvalue="Python tests.pytest in test_NewsLetter.py" />
         <item itemvalue="Python tests.pytest in test" />
-        <item itemvalue="Python tests.pytest for test1.test_open_all_newsletter" />
+        <item itemvalue="Python tests.pytest for test.test_NewsLetter.test_open_all_newsletter" />
         <item itemvalue="Python tests.Unittests in inlooptests" />
-        <item itemvalue="Python tests.pytest for test1.test_openNewsletter" />
+        <item itemvalue="Python tests.pytest for test.test_NewsLetter.test_openNewsletter" />
       </list>
     </recent_temporary>
   </component>
