@@ -12,8 +12,7 @@ class OperationWithNewsletter:
     # Click in first newsletter
     def click_in_first_newsletter(self):
         driver = self.app.driver
-        driver.find_element_by_css_selector(
-            "body.ng-scope.ng-isolate-scope:nth-child(2) div.mm-page.mm-slideout:nth-child(4) div.flex-wrapper.ng-scope:nth-child(1) template-page.ng-isolate-scope div.container.main-wrapper div.margin-top-1.main-content.mag-content.clearfix div.row.ng-scope:nth-child(2) div.col-md-4.ng-scope div.ng-scope div.ng-scope newsletters-archive.ng-isolate-scope:nth-child(13) div.widget.reviewwidget.newsletters div:nth-child(2) article.widget-post.clearfix.ng-scope:nth-child(1) header:nth-child(2) h3.ng-scope > a.ng-binding").click()
+        driver.find_element_by_css_selector("newsletters-archive article header h3 a").click()
         time.sleep(10)
 
     # Scroll page to first newsletter
@@ -21,7 +20,7 @@ class OperationWithNewsletter:
         self.app.open_page()
         driver = self.app.driver
         element = driver.find_element_by_css_selector(
-            "body.ng-scope.ng-isolate-scope:nth-child(2) div.mm-page.mm-slideout:nth-child(4) div.flex-wrapper.ng-scope:nth-child(1) template-page.ng-isolate-scope div.container.main-wrapper div.margin-top-1.main-content.mag-content.clearfix div.row.ng-scope:nth-child(2) div.col-md-4.ng-scope div.ng-scope div.ng-scope newsletters-archive.ng-isolate-scope:nth-child(13) div.widget.reviewwidget.newsletters div:nth-child(2) article.widget-post.clearfix.ng-scope:nth-child(1) header:nth-child(2) h3.ng-scope > a.ng-binding")
+            "newsletters-archive article header h3 a")
         ActionChains(driver).move_to_element(element).click().send_keys(Keys.PAGE_DOWN).perform()
         time.sleep(2)
 
@@ -52,4 +51,3 @@ class OperationWithNewsletter:
         print(all_page)
         time.sleep(3)
         assert all_page == self.app.driver.window_handles
-

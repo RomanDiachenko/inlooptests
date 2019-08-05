@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9264e5e5-1585-46b0-a976-123516e07c1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fixture/page_operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inlooptests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inlooptests.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/newsletter.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/newsletter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/tab_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/tab_operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +20,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="106" />
-    <option name="y" value="70" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="1Oot9zMo7hBbkiiEiT2B3uGLkaj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -139,8 +127,8 @@
       <list>
         <item itemvalue="Python tests.pytest in test1.py" />
         <item itemvalue="Python tests.pytest in test" />
-        <item itemvalue="Python tests.Unittests in inlooptests" />
         <item itemvalue="Python tests.pytest for test1.test_open_all_newsletter" />
+        <item itemvalue="Python tests.Unittests in inlooptests" />
         <item itemvalue="Python tests.pytest for test1.test_openNewsletter" />
       </list>
     </recent_temporary>
