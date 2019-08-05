@@ -18,4 +18,3 @@ class TabHelper:
         expected_url = start_url
         assert expected_url == page_url
         print("url_valid")
-
