@@ -9,8 +9,8 @@ def test_openNewsletter(app):
 # Open mail page and open all newsletter
 def test_open_all_newsletter(app):
     app.newsletter.open_some_tab()
-    app.newsletter.open2newsletter()
-    app.newsletter.open3newsletter()
-    app.newsletter.open4newsletter()
-    app.newsletter.open5newsletter()
+    app.newsletter.opennewsletter(2)
+    app.newsletter.opennewsletter(3)
+    app.newsletter.opennewsletter(4)
+    app.newsletter.opennewsletter(5)
     app.newsletter.check_tab()

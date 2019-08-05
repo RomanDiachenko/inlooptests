@@ -3,7 +3,7 @@ import time
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-Newsletter_selector = "body.ng-scope.ng-isolate-scope:nth-child(2) div.mm-page.mm-slideout:nth-child(4) div.flex-wrapper.ng-scope:nth-child(1) template-page.ng-isolate-scope div.container.main-wrapper div.margin-top-1.main-content.mag-content.clearfix div.row.ng-scope:nth-child(2) div.col-md-4.ng-scope div.ng-scope div.ng-scope newsletters-archive.ng-isolate-scope:nth-child(13) div.widget.reviewwidget.newsletters div:nth-child(2) article.widget-post.clearfix.ng-scope:nth-child%s header:nth-child(2) h3.ng-scope > a.ng-binding"
+Newsletter_selector = "body.ng-scope.ng-isolate-scope:nth-child(2) div.mm-page.mm-slideout:nth-child(4) div.flex-wrapper.ng-scope:nth-child(1) template-page.ng-isolate-scope div.container.main-wrapper div.margin-top-1.main-content.mag-content.clearfix div.row.ng-scope:nth-child(2) div.col-md-4.ng-scope div.ng-scope div.ng-scope newsletters-archive.ng-isolate-scope:nth-child(13) div.widget.reviewwidget.newsletters div:nth-child(2) article.widget-post.clearfix.ng-scope:nth-child(%d) header:nth-child(2) h3.ng-scope > a.ng-binding"
 
 
 class OperationWithNewsletter:
@@ -32,36 +32,13 @@ class OperationWithNewsletter:
         first_tab = self.app.driver.current_window_handle
         print(first_tab)
 
-    # Open second newsletter
-    def open2newsletter(self, child_element2="(2)"):
+    # Open 2,3,4,5 newsletter
+    def opennewsletter(self, child_element):
         driver = self.app.driver
-        driver.find_element_by_css_selector(Newsletter_selector % child_element2).click()
+        driver.find_element_by_css_selector(Newsletter_selector % child_element).click()
         first_tab = self.page_handle()
         self.app.driver.switch_to.window(first_tab)
         time.sleep(2)
-
-    # Open third newsletter
-    def open3newsletter(self, child_element3="(3)"):
-        driver = self.app.driver
-        driver.find_element_by_css_selector(Newsletter_selector % child_element3).click()
-        first_tab = self.page_handle()
-        self.app.driver.switch_to.window(first_tab)
-        time.sleep(2)
-
-    # Open fourth newsletter
-    def open4newsletter(self, child_element4="(4)"):
-        driver = self.app.driver
-        driver.find_element_by_css_selector(Newsletter_selector % child_element4).click()
-        first_tab = self.page_handle()
-        self.app.driver.switch_to.window(first_tab)
-        time.sleep(2)
-
-    # Open fifth newsletter
-    def open5newsletter(self, child_element5="(5)"):
-        driver = self.app.driver
-        driver.find_element_by_css_selector(Newsletter_selector % child_element5).click()
-        first_tab = self.page_handle()
-        self.app.driver.switch_to.window(first_tab)
 
     # Check opened window
     def page_handle(self):
