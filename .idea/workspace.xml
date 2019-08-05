@@ -2,70 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9264e5e5-1585-46b0-a976-123516e07c1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixture/newsletter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixture/page_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inlooptests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inlooptests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumptonewsletter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tab_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/tab_operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsletter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/newsletter.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/newsletter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/tab_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/tab_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-start-column="2" selection-end-line="10" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/newsletter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#1#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,24 +27,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/application.py" />
-        <option value="$PROJECT_DIR$/test1.py" />
-        <option value="$PROJECT_DIR$/newsletter.py" />
-        <option value="$PROJECT_DIR$/tab_operation.py" />
-        <option value="$PROJECT_DIR$/test/application.py" />
-        <option value="$PROJECT_DIR$/jumptonewsletter.py" />
-        <option value="$PROJECT_DIR$/fixture/test1.py" />
-        <option value="$PROJECT_DIR$/test/newsletter.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
-        <option value="$PROJECT_DIR$/fixture/newsletter.py" />
-        <option value="$PROJECT_DIR$/test/test1.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="106" />
     <option name="y" value="70" />
@@ -105,39 +37,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="inlooptests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inlooptests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inlooptests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inlooptests" type="462c0819:PsiDirectoryNode" />
-              <item name="fixture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inlooptests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inlooptests" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -157,28 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test.test1.test_open_all_newsletter">
-    <configuration name="application (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="inlooptests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\GitHubRepository\inlooptests\fixture\application.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest in test1.py">
     <configuration name="Unittests in inlooptests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="inlooptests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,34 +75,49 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test.test1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test1.test_openNewsletter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="inlooptests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fixture" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test1&quot;" />
+      <option name="_new_target" value="&quot;test1.test_openNewsletter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test.test1.test_open_all_newsletter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test1.test_open_all_newsletter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="inlooptests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fixture" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test1.test_open_all_newsletter&quot;" />
+      <option name="_new_target" value="&quot;test1.test_open_all_newsletter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="inlooptests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -228,7 +125,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -240,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test.test1.test_open_all_newsletter" />
-        <item itemvalue="Python tests.pytest for test.test1" />
-        <item itemvalue="Python tests.Unittests in inlooptests" />
         <item itemvalue="Python tests.pytest in test1.py" />
-        <item itemvalue="Python.application (1)" />
+        <item itemvalue="Python tests.pytest in test" />
+        <item itemvalue="Python tests.Unittests in inlooptests" />
+        <item itemvalue="Python tests.pytest for test1.test_open_all_newsletter" />
+        <item itemvalue="Python tests.pytest for test1.test_openNewsletter" />
       </list>
     </recent_temporary>
   </component>
@@ -261,73 +158,13 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="pytest_for_test1_test_my_tests - 2019.08.04 at 20h 16m 14s.xml">
-      <configuration name="pytest for test1.test_my_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_my_tests - 2019.08.04 at 20h 22m 33s.xml">
-      <configuration name="pytest for test1.test_my_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_my_tests - 2019.08.04 at 20h 30m 40s.xml">
-      <configuration name="pytest for test1.test_my_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_my_tests - 2019.08.04 at 20h 48m 03s.xml">
-      <configuration name="pytest for test1.test_my_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_my_tests - 2019.08.04 at 20h 50m 04s.xml">
-      <configuration name="pytest for test1.test_my_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_open_all_newsletter - 2019.08.04 at 20h 55m 18s.xml">
-      <configuration name="pytest for test1.test_open_all_newsletter" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_open_all_newsletter - 2019.08.04 at 20h 56m 03s.xml">
-      <configuration name="pytest for test1.test_open_all_newsletter" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_open_all_newsletter - 2019.08.04 at 20h 57m 33s.xml">
-      <configuration name="pytest for test1.test_open_all_newsletter" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_open_all_newsletter - 2019.08.04 at 20h 58m 21s.xml">
-      <configuration name="pytest for test1.test_open_all_newsletter" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test1_test_open_all_newsletter - 2019.08.04 at 21h 00m 29s.xml">
-      <configuration name="pytest for test1.test_open_all_newsletter" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.24960998" />
-      <window_info id="Structure" order="1" sideWeight="0.50222224" side_tool="true" weight="0.24960998" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30875576" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -347,68 +184,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://D:/Python/Lib/distutils/dist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="1185" column="8" selection-start-line="1185" selection-start-column="8" selection-end-line="1185" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumptonewsletter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="43" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/tab_operation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#1#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/newsletter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-start-column="2" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
