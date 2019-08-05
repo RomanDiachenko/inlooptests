@@ -3,7 +3,6 @@ import time
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-base_newsletter_url = "https://athletictrainers.inloop.com/en/api/feedlandingapi/getnewslettertemplatebody?id=%d"
 
 Newsletter_selector = "body.ng-scope.ng-isolate-scope:nth-child(2) div.mm-page.mm-slideout:nth-child(4) div.flex-wrapper.ng-scope:nth-child(1) template-page.ng-isolate-scope div.container.main-wrapper div.margin-top-1.main-content.mag-content.clearfix div.row.ng-scope:nth-child(2) div.col-md-4.ng-scope div.ng-scope div.ng-scope newsletters-archive.ng-isolate-scope:nth-child(13) div.widget.reviewwidget.newsletters div:nth-child(2) article.widget-post.clearfix.ng-scope:nth-child(%d) header:nth-child(2) h3.ng-scope > a.ng-binding"
 
@@ -35,7 +34,7 @@ class OperationWithNewsletter:
         print(first_tab)
 
     # Open 2,3,4,5 newsletter
-    def opennewsletter(self, child_element):
+    def open_newsletter(self, child_element):
         driver = self.app.driver
         driver.find_element_by_css_selector(Newsletter_selector % child_element).click()
         first_tab = self.page_handle()
@@ -51,7 +50,7 @@ class OperationWithNewsletter:
         return first_tab
 
     # Validation of the number of open tabs
-    def check_tab(self):
+    def check_opened_tab_count(self):
         all_page = self.app.driver.window_handles
         print(len(all_page))
         time.sleep(3)
